@@ -2,7 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+CS404_Spring23_a3.pdf
 # C extensions
 *.so
 
