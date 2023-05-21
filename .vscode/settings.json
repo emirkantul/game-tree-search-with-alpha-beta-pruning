@@ -1,0 +1,41 @@
+{
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": true
+	},
+	"git.ignoreLimitWarning": true,
+	"[python]": {
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": true
+		},
+		"editor.defaultFormatter": "ms-python.black-formatter"
+	},
+	"prettier.singleQuote": false,
+	"prettier.useTabs": true,
+	"prettier.tabWidth": 4,
+	"prettier.semi": true,
+	"prettier.printWidth": 100,
+	"python.linting.pylintArgs": ["--additional-builtins=session", "--disable=C0111"],
+	"python.linting.flake8Args": [
+		"--builtins=session",
+		"--max-line-length=120",
+		"--ignore=E722,E203,W391,W503"
+	],
+	"editor.formatOnSave": true,
+	"python.linting.flake8Enabled": false,
+	"python.formatting.provider": "none",
+	"python.formatting.blackArgs": ["--skip-string-normalization", "--line-length=88"],
+	"isort.args": ["--multi-line", "3"],
+	"files.exclude": {
+		"**/__pycache__": true,
+		"**/.venv": true,
+		"**/.eggs": true,
+		"**/*.egg-info": true,
+		"**/.terraform": true,
+		"**/.pytest_cache": true,
+		"**/.vscode": true
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"python.linting.flake8CategorySeverity.E": "Information",
+	"python.linting.flake8CategorySeverity.F": "Information",
+	"python.linting.flake8CategorySeverity.W": "Information"
+}

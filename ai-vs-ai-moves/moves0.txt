@@ -1,0 +1,36 @@
+1-*-1
+| | |
+*-2-*
+| | |
+*-*-1
+
+Player 1 to move.
+Player 2 moved to (1, 0)
+
+1-*-1
+| | |
+*-2-*
+|/| |
+*-*-1
+
+Player 2 to move.
+Player 1 moved to (0, 0)
+
+1-*-1
+|\| |
+*-2-*
+|/| |
+*-*-1
+
+Player 1 to move.
+Player 2 moved to (0, 1)
+
+1-*-1
+|\|/|
+*-2-*
+|/| |
+*-*-1
+
+Player 2 to move.
+Player 1 moved to (1, 1)
+
